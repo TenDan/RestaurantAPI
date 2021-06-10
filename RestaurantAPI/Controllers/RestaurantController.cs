@@ -38,7 +38,7 @@ namespace RestaurantAPI.Controllers
         {
             _restaurantService.Delete(id);
 
-            return NotFound();
+            return NoContent();
         }
 
         [HttpPost]
